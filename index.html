@@ -1,0 +1,50 @@
+<!doctype html>
+<!-- help2.html                                            Adam Payne -->
+<!-- Hover over the images to display quote -->
+<!-- using innerHTLML attribute. -->
+<!-- =============================================================== -->
+
+<html>
+ <head>
+   <title>hover over images for quotesk</title>
+ </head>
+
+ <body>
+  <div style="text-align:center">
+   <p>
+     Computing Quotes.
+   </p>
+   
+   <hr>
+
+   <img src= "turing.gif"
+      Onmouseover= "document.getElementById('outputDiv').innerHTML=
+              'I believe that at the end of the century the use of words and general educated opinion will have altered' +
+              'so much that one will be able to speak of machines thinking without expecting to be contradicted -- Alan Turing.';"
+      onmouseout= "document.getElementById('outputDiv').innerHTML=
+              '';"
+              >
+  
+   <img src= "vonNeumann.gif"
+      Onmouseover= "document.getElementById('outputDiv').innerHTML=
+              'It would appear that we have reached the limits of what it is possible to achieve with computer technology,' +
+              ' although one should be careful with such statements, as they tend to sound pretty silly in 5 years.  --  John von Neumann.';"
+      onmouseout= "document.getElementById('outputDiv').innerHTML=
+              '';"
+              >
+
+   <img src= "bernersLee.gif"
+      Onmouseover= "document.getElementById('outputDiv').innerHTML=
+              'Anyone who has lost track of time when using a computer knows the propensity to dream,' +
+              ' the urge to make dreams come true and the tendency to miss lunch. -- Tim Berners-Lee.';"
+      onmouseout= "document.getElementById('outputDiv').innerHTML=
+              '';"
+              >
+
+<hr>
+
+   <div id="outputDiv">
+     Welcome to my site! 
+   </div>
+ </body>
+</html>
